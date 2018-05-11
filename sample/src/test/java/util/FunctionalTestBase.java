@@ -10,7 +10,7 @@ public class FunctionalTestBase {
 	public WebDriver driver ;
 	final String URL = "https://google.com";
 	String chromeDriverProp = "webdriver.chrome.driver";
-	String driverPath="C:\\Users\\hovsepyana\\Downloads\\chromedriver.exe";
+	String driverPath="/Users/apple/Downloads/chromedriver";
 	
 	@BeforeClass
 	public void setup() {
